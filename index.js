@@ -22,7 +22,7 @@ class Vaisius {
 class Krepsys {
 	static vaisiai = [];
 	static pripildyti() {
-		while (this.vaisiai.length <= 20) {
+		while (this.vaisiai.length < 20) {
 			Krepsys.vaisiai.push(new Vaisius());
 			Krepsys.vaisiai.sort((a, b) => (a.dydis < b.dydis ? 1 : -1));
 		}
