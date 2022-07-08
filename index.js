@@ -30,7 +30,7 @@ class Krepsys {
 	}
 	static isimti() {
 		let grauztukas = Krepsys.vaisiai.shift();
-		grauztukas.prakastas = true;
+		grauztukas.prakasti();
 		grauztukai.set(grauztukas.id, grauztukas);
 		return this;
 	}
